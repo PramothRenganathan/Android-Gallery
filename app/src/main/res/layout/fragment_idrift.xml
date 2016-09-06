@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.cmu.idrift.ViewActivity.IDriftActivity$PlaceholderFragment">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/Drifting"/>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Drift Video"> </Button>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

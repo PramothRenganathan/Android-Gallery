@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".HomeActivity">
+
+    <item android:id="@+id/addEventItem"
+        android:title="@string/menuitem_add_event"
+        android:icon="@android:drawable/ic_menu_add"
+        android:titleCondensed="@string/menuitem_add_event"
+        android:alphabeticShortcut="a"
+        app:showAsAction="ifRoom" ></item> <!-- for Action Bar -->
+
+
+    <item android:id="@+id/listEventItem"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/menuitem_list_event"
+        android:alphabeticShortcut="l"
+        app:showAsAction="ifRoom" ></item>
+
+    <item android:id="@+id/cameraItem"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/menuitem_camera"
+        android:alphabeticShortcut="l"
+        app:showAsAction="always" ></item>
+    <item android:id="@+id/scanItem"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title="@string/menuitem_scan"
+        android:alphabeticShortcut="s"
+        app:showAsAction="always" ></item>
+
+
+</menu>

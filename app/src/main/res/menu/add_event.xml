@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cmu.test0601.ViewActivity.AddEventActivity" >
+
+    <item android:id="@+id/home"
+        android:title="@string/menuitem_home"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:titleCondensed="@string/menuitem_add_event"
+        android:alphabeticShortcut="a"
+        app:showAsAction="ifRoom" ></item> <!-- for Action Bar -->
+
+
+    <item android:id="@+id/listEventItem"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/menuitem_list_event"
+        android:alphabeticShortcut="l"
+        app:showAsAction="ifRoom" ></item>
+
+</menu>
